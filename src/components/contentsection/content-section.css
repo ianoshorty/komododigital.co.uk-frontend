@@ -3,6 +3,7 @@
 col width 70
 gutter 30 */
 
+/*
 .cs-wrapper {
     display: grid;
     grid-template-columns: repeat(14, 70px);
@@ -37,4 +38,11 @@ gutter 30 */
 .invert {
     background-color: #151515;
     color: white;
+}
+*/
+
+.cs-content p {
+    font-size: 1.2rem;
+    line-height: 2rem;    
+    margin-bottom: 2rem;
 }
