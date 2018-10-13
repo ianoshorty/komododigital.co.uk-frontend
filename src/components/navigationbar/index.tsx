@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { Link } from '@reach/router';
 
-//import './NavigationBar.css';
+// import './NavigationBar.css';
 
 interface Props {
   data?: any;
@@ -16,22 +16,22 @@ const NavigationBar: React.SFC<Props> = ({ data }) => {
         </Link>
       </h1>
       <ul className="list-reset flex-1 flex flex-row items-center justify-end">
-        <li className="w-full text-center">
+        <li className="w-full text-center text-2xl">
           <Link to={'about'} className="text-white no-underline">
             About
           </Link>
         </li>
-        <li className="w-full text-center">
+        <li className="w-full text-center text-2xl">
           <Link to={'case-studies'} className="text-white no-underline">
             Case Studies
           </Link>
         </li>
-        <li className="w-full text-center">
+        <li className="w-full text-center text-2xl">
           <Link to={'blog-list'} className="text-white no-underline">
             Insights
           </Link>
         </li>
-        <li className="w-full text-center">
+        <li className="w-full text-center text-2xl">
           <Link to={'contact'} className="text-white no-underline">
             Contact
           </Link>
