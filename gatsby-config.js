@@ -20,6 +20,12 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require('tailwindcss')('./tailwind.js')],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'KomodoDigital-Template',
