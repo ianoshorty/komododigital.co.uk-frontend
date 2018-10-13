@@ -14,7 +14,7 @@ const ContentSection: React.SFC<Props> = ({
   invert,
   children,
 }) => {
-  const subtitleEl = subtitle ? <span className="uppercase block mb-4">{subtitle}</span> : null;
+  const subtitleEl = subtitle ? <span className="uppercase font-semibold tracking-wide block mb-4">{subtitle}</span> : null;
   const titleEl = title ? <h2 className="text-5xl font-semibold leading-normal pb-4">{title}</h2> : null;
   const invertedClassname = invert ? 'invert' : '';
 
